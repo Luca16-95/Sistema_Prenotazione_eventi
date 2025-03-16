@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+  <head>
+    <title>Eventi</title>
+  </head>
+  <body>
+    <h1>Stai visualizzando tanti eventi</h1>
+
+    <!-- Visualizzare gli eventi -->
+    <div>
+      <h2>Lista degli Eventi</h2>
+      <ul>
+        <!-- Iterazione sulla lista di eventi passata dal controller -->
+        <li th:each="evento : ${Sedi}">
+          <p>Nome evento: <span th:text="${evento.descrizione}"></span></p>
+          <p>Data evento: <span th:text="${evento.data}"></span></p>
+          <p>orario evento: <span th:text="${evento.orario}"></span></p>
+          <p>prezzo evento: <span th:text="${evento.prezzo}"></span></p>
+          <p>titolo evento: <span th:text="${evento.titolo}"></span></p>
+          <p>luogo evento: <span th:text="${evento.sede}"></span></p>
+        </li>
+      </ul>
+    </div>
+
+    <a href="/logout">Logout</a>
+  </body>
+</html>
