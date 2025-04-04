@@ -65,7 +65,7 @@ public class PrenotazioneController {
 
         // Aggiungi un messaggio di successo alla vista
         model.addAttribute("message", "Prenotazione effettuata con successo!");
-        return "redirect:/eventi"; // Puoi reindirizzare l'utente alla lista degli eventi o a una pagina di
-                                   // conferma
+        return "redirect:/eventi"; 
+                                   
     }
 }
