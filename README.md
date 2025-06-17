@@ -1,6 +1,6 @@
-# ProvaConnessione
+# Sistema Prenotazione Eventi
 
-**ProvaConnessione** è una web application Java basata su Spring Boot che consente la gestione di eventi, prenotazioni, sedi e utenti. Il sistema fornisce un'API REST per operazioni CRUD su tutte le entità principali.
+**Sistema Prenotazione Eventi** è una web application Java basata su Spring Boot che consente la gestione di eventi, prenotazioni, sedi e utenti. Il sistema fornisce un'API REST per operazioni CRUD su tutte le entità principali.
 
 ## 🧩 Tecnologie utilizzate
 
