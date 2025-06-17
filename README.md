@@ -12,16 +12,6 @@
 - Gradle
 - REST API
 
-## 📦 Struttura del progetto
-
-src/main/java/com/example/provaconnessione/
-├── controller/ # Controller REST per Evento, Prenotazioni, Auth, Sede
-├── model/ # Classi Entity: Evento, User, Sede, Prenotazioni
-├── repository/ # Interfacce JPA per l'accesso ai dati
-├── service/ # Logica di business per ogni entità
-├── SpringSecurityConfig # Configurazione sicurezza
-└── ProvaconnessioneApplication.java
-
 
 ## ▶️ Come eseguire il progetto
 
